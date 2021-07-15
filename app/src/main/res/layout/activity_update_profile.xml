@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/whitesmoke"
+    tools:context=".UpdateProfile"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/heading_update_profile"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Update Profile"
+            android:layout_marginVertical="20dp"
+            android:textColor="@color/darkgray"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:ems="10"
+            android:background="@drawable/underline"
+            android:id="@+id/fname_update"
+            android:hint="First Name"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#1A237E"
+            android:textColorHint="#1A237E"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:ems="10"
+            android:id="@+id/lname_update"
+            android:hint="Last Name"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/underline"
+            android:textColor="#1A237E"
+            android:textColorHint="#1A237E"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/separation"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:text="------------------------------------------------------------------------"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:width="250dp"
+            android:id="@+id/email_update"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="50dp"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/underline"
+            android:textColorHint="#1A237E"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:width="250dp"
+            android:inputType="textPassword"
+            android:id="@+id/upass_update"
+            android:hint="Password"
+            android:layout_marginLeft="50dp"
+            android:textColor="#1A237E"
+            android:textColorHint="#1A237E"
+            android:background="@drawable/underline"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:width="250dp"
+            android:ems="10"
+            android:id="@+id/rpass_update"
+            android:inputType="textPassword"
+            android:hint="Re-type password"
+            android:layout_marginLeft="50dp"
+            android:textColor="#1A237E"
+            android:textColorHint="#1A237E"
+            android:background="@drawable/underline"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/update_profile"
+            android:layout_gravity="end"
+            android:layout_margin="20dp"
+            android:text="Update profile"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/notice"
+            android:padding="20dp"
+            android:textColor="@color/darkgray"
+            android:text="Note : To update the profile you need to update the password to. If you wish to keep the old password please enter the same.  "/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#354250"
+    android:rotationX="0"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_auth"
+        android:layout_width="235dp"
+        android:layout_height="55dp"
+        android:layout_marginVertical="50dp"
+        android:text="Authentication"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:paddingVertical="10dp"
+        android:textSize="30sp"
+        android:textColor="@color/aliceblue"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="30dp"
+        android:background="@drawable/edit_text_rnd_light"
+        android:fontFamily="sans-serif"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/upass"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="30dp"
+        android:ems="10"
+        android:background="@drawable/edit_text_rnd_light"
+        android:fontFamily="sans-serif"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="150dp"
+        android:layout_height="53dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginVertical="50dp"
+        android:text="Button"
+        android:background="@drawable/btn_rnd_light" />
+
+</LinearLayout>
